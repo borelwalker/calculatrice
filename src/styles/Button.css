@@ -1,0 +1,23 @@
+.Button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    font-size: 24px;
+    background-color:rgb(84, 79, 79);
+    color: white;
+    flex: 1;
+    margin: 4px;
+    border-radius: 20px;
+    
+   
+    
+}
+.Button-wrapper:active{
+    transform: translateY(2px);
+
+}
+
+.zero{
+    grid-column: span 2;
+}
